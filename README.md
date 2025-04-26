@@ -66,11 +66,11 @@ TELEM1="-A udp:192.168.1.164:14650"
 
 and the lauch file is configure to recieved and forward in case we only want to use qgroundcontrol:
 ```yaml title="/opt/ros/humble/share/mavros/launch/cleaningcat_local.launch"
- 	<arg name="fcu_url" default="udp://:14650@" />
+        <arg name="fcu_url" default="udp://:14650@" />
         <arg name="gcs_url" default="udp://:14551@localhost:14550" />
 ```
 
-# override
+# RC override troubles
 
-In order the be able to over ride cleaningcat\_local.launch needs system\_id 255 and component\_id 240. Also the variables system\_id and component\_id need to be set in the node.launch file. See the documents as reference unter <https://github.com/axonbf/cat_steering/blob/master/external_config_files/>
+In order the be able to over ride ```cleaningcat\_local.launch``` needs system\_id 255 and component\_id 240. Also the variables system\_id and component\_id need to be set in the node.launch file. See the documents as reference unter <https://github.com/axonbf/cat_steering/blob/master/external_config_files/>
 

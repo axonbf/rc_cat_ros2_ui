@@ -1,5 +1,14 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Dependencies and installation
+nextjs.org recoments using pnpm as your package manager, as it's faster and more efficient than npm or yarn. <https://nextjs.org/learn/dashboard-app/getting-started
+
+```bash
+npm install -g pnpm 
+pnpm install
+pnpm run dev
+```
+
 ## Getting Started
 
 First, run the development server:

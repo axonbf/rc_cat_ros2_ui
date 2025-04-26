@@ -72,5 +72,5 @@ and the lauch file is configure to recieved and forward in case we only want to 
 
 # RC override troubles
 
-In order to be able to over ride ```cleaningcat\_local.launch``` needs ```system\_id 255``` and ```component\_id 240```. Also the variables ```system\_id``` and ```component\_id``` need to be set in the ```node.launch``` file. See the documents as reference unter <https://github.com/axonbf/cat_steering/blob/master/external_config_files/>
+In order to be able to over ride ```cleaningcat_local.launch``` needs ```system_id 255``` and ```component_id 240```. Also the variables ```system_id``` and ```component_id``` need to be set in the ```node.launch``` file. See the documents as reference unter <https://github.com/axonbf/cat_steering/blob/master/external_config_files/>
 
